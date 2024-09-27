@@ -17,7 +17,7 @@ export default function MainPage() {
                 <Grid size={4}>
                     <div className={styles.introduce}>
                         <h2 style={{fontSize: '39px'}}>안녕하세요!</h2>
-                        <p>저는 김동우입니다. 나이는 고등학교 2학년이고, 충주상업고등학교 스마트 IT과에 재학중입니다. 제가 할 수 있는 프로그래밍 언어에는 C#, 파이썬, 자바스크립트가 있습니다.</p>
+                        <p>저는 이은학입니다. 충주상업고등학교 스마트 IT과에 재학중입니다. 프로그램에 능숙하진 않지만, 모델링을 주로 진행합니다.</p>
                         <Button variant="contained" onClick={handleClick}>프로젝트 보러가기</Button>
                     </div>
                 </Grid>

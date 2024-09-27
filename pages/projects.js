@@ -10,7 +10,7 @@ export default function Projects({projects}) {
         <>
             <Layout>
             <Head>
-                <title>김동우의 포트폴리오</title>
+                <title>은학의 포트폴리오</title>
                 <meta name="description" content="나의 포트폴리오"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" href="/favicon.ico"/>
@@ -18,6 +18,7 @@ export default function Projects({projects}) {
             <h1>프로젝트</h1>
             <span>총 프로젝트 : {projects.results?.length}</span>
             <Grid container spacing={3}>
+                {console.log(projects.results)}
                 {projects && projects.results.map((aProject) =>(
                     <ProjectItem key={aProject.id} data={aProject}/>
                 ))}

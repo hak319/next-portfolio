@@ -13,8 +13,7 @@ export default function ProjectItem({data}){
     const end = data.properties?.작업_기간.date.end;
     const description = data.properties?.설명.rich_text[0].plain_text;
     const github = data.properties?.Github.url;
-    const imgSrc = data.cover.file?.url || data.cover.external.url;
-
+    const imgUrl = data.properties?.Image.url;
     const router = useRouter();
     
 
@@ -38,7 +37,7 @@ export default function ProjectItem({data}){
             <Card sx={{width : 345}}>
                 <CardMedia
                     sx={{height : 180}}
-                    image={imgSrc}
+                    image={imgUrl}
                     title={title}
                 />
                 <CardContent>
