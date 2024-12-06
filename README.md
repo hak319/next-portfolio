@@ -22,7 +22,7 @@ npm start
 https://localhost:3000
 ```
 
-#TIL
+# TIL
 -3_19
   - 기본적인 HTML 작성 방법
 
@@ -42,7 +42,8 @@ https://localhost:3000
   -JavaScript 기초(함수,DOM조작)
 
 -4.29
-  - Javascript 퀴즈
+  - JavaScript 퀴즈
 
--
+-5_7
+  -JavaScript 함수 활용
 
