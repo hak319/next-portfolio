@@ -21,3 +21,28 @@ npm start
 ```
 https://localhost:3000
 ```
+
+#TIL
+-3_19
+  - 기본적인 HTML 작성 방법
+
+-3_25
+  - HTML/CSS JS 관계, 기초 사용 방법
+
+-4_1
+  - HTML 태그 기초, JS 사용 영역
+
+-4_2
+  - HMTL 과 CSS를 활용한 태그 디자인 부여
+
+-4.8
+  - JavaScript 기초(변수, 함수)
+
+-4.9
+  -JavaScript 기초(함수,DOM조작)
+
+-4.29
+  - Javascript 퀴즈
+
+-
+
