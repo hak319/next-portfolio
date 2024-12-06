@@ -1,8 +1,8 @@
 # next-portfolio
 
-#Introduction
+# Introduction
 
-#Getting Started
+# Getting Started
 1. Repository Clone
 ```bash
 git clone~~~
